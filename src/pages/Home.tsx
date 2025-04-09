@@ -5,8 +5,8 @@ function Home() {
 
   return (
     <>
-      <h1>Hello from Home</h1>
-      <p>Today is a {weather} day</p>
+      <h1 className ="font-mono text-2xl text-center text-fuchsia-400 my-16">Hello from Home</h1>
+      <p className ="font-mono text-2xl text-center text-yellow-500">Today is a {weather} day</p>
     </>
   );
 }
